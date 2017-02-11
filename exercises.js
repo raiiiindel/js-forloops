@@ -163,7 +163,7 @@ function nap(schedule){
 }
 nap(napSchedule);
 
-/* 10) Copy Pasta
+/* 10) Copy Paste
 Declare a variable named `valuesArray` and assign its value to be an array: `[99, 66, 829, 1941, 8, 76]`. 
 Declare another variable named `copyValuesArray` and assing its value to an empty array.
 
@@ -180,6 +180,7 @@ var copyValuesArray = [];
 function copyArray(originArray, destinationArray){
   for( var i=0; i<originArray.length; i++){
     destinationArray.push(originArray[i]);
+    //destination[i] = originArray[i]; * Another option.
   }
   return destinationArray;
 }
